@@ -11,8 +11,8 @@ def line(katz_deli)
     katz_deli.each.with_index do |name, index|
       message << "#{index}: #{name}"
     end
+    return message
   end
-  return message
 end
 
 def take_a_number(katz_deli,name)
