@@ -1,6 +1,8 @@
 # Write your code here.
 # katz_deli = ["Price","Hanna",]
 
+katz_deli == []
+
 def line(katz_deli)
   katz_deli == []
   if katz_deli == []
