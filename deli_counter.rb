@@ -10,9 +10,9 @@ def line(katz_deli)
   else
     katz_deli.each.with_index do |name, index|
       message << "#{index}: #{name}"
-      return message
     end
   end
+  return message
 end
 
 def take_a_number(katz_deli,name)
