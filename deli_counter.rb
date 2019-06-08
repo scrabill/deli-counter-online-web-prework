@@ -4,14 +4,13 @@
 def line(katz_deli)
   katz_deli == []
   message = "The line is currently:"
-
+  
   if katz_deli == []
     puts "The line is currently empty."
   else
     katz_deli.each.with_index do |name, index|
-      message.push({index}: {name})
-      puts message + index + name
-      puts index
+      message.push(#{index}: #{name})
+      puts message
     end
   end
 end
