@@ -19,5 +19,5 @@ end
 def now_serving(katz_deli)
   x = katz_deli.shift
 
-  puts "Currently serving Ada."
+  puts "Currently serving #{x}."
 end
