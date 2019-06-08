@@ -1,6 +1,8 @@
 # Write your code here.
 def line(katz_deli)
-  if line == ""
+  if katz_deli == nil
     puts "The line is currently empty."
+  else
+    puts "There are people in line"
   end
 end
