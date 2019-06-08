@@ -9,7 +9,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     katz_deli.each.with_index do |name, index|
-      message.push(#{index}: #{name})
+      message.push("#{index}: #{name}")
       puts message
     end
   end
