@@ -1,6 +1,6 @@
 # Write your code here.
 def line
-  when line == nil
+when line == "
     puts "The line is currently empty."
   end
 end
