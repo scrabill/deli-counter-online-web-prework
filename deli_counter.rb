@@ -10,8 +10,8 @@ def line(katz_deli)
   else
     katz_deli.each.with_index do |name, index|
       message << "#{index}: #{name}"
-      puts message
     end
+    puts message
   end
 end
 
