@@ -5,6 +5,6 @@ def line(katz_deli)
   if katz_deli == []
     puts "The line is currently empty."
   else
-    puts "There are people in line."
+    puts katz_deli
   end
 end
